@@ -3,5 +3,7 @@
 
 # Allow specific files or directories
 !.gitignore
-!list.py
 !README.md
+!add_to_playlist.py
+!file_utils.py
+!youtube.py
