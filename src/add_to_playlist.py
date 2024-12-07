@@ -1,9 +1,9 @@
 import sys
-from file_utils import *
-from youtube import *
+from src.file_utils import *
+from src.youtube import *
 
 def main():
-    client_secrets_file_path = "./client_secrets.json"
+    client_secrets_file_path = "../client_secrets.json"
     
     client_data = load_client_secrets(client_secrets_file_path)
     if not client_data:

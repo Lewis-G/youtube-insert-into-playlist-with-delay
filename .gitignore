@@ -5,6 +5,6 @@
 !.gitignore
 !README.md
 !To-do.md
-!add_to_playlist.py
-!file_utils.py
+!src/
+!src/*.py
 !youtube.py
